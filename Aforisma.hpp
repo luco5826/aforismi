@@ -23,6 +23,12 @@ class Aforisma
         this->autore = autore;
     }
 
+    ~Aforisma()
+    {
+        this->frase = nullptr;
+        this->autore = nullptr;
+    }
+
     string getFrase()
     {
         return this->frase;
@@ -70,3 +76,4 @@ std::vector<Aforisma *> popolateVectorFromFile(string fileName)
 }
 } // namespace afo
 #endif
+

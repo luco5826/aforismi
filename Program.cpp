@@ -73,6 +73,7 @@ int main()
         cout << ", SQLState: " << e.getSQLState() << " )" << endl;
     }
 
+    aforismi.clear();
     cout << endl;
 
     return EXIT_SUCCESS;
